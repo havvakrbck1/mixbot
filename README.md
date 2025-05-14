@@ -1,40 +1,21 @@
-#  Mixbot
+```markdown
+# Word Mix Bot
 
-Mixbot, kullanıcılara müzikle ilgili çeşitli aktiviteler sunan bir Telegram botudur. Kullanıcılar, şarkı tavsiyeleri alabilir ve müzikle ilgili sohbetler yapabilirler.
+A Telegram bot that provides mixed-up words for users to unscramble.
 
-##  Özellikler
-- Kullanıcılara şarkı önerileri sunar.
-- Müzik zevklerine göre sohbet başlatır.
-- Eğlenceli ve etkileşimli bir bot.
+## Features
+- Sends mixed-up words
+- User interaction
+- Score tracking
 
-##  Kullanılan Teknolojiler
-- Python
-- Telebot (Telegram bot API)
-- random (şarkı önerileri için)
+## Technologies Used
+- Python 3
+- Telegram Bot API
 
-## ⚙️ Kurulum
+## Installation
 
-1. Projeyi klonlayın:
-
-    ```bash
-    git clone https://github.com/havvakrbck1/mixbot.git
-    cd mixbot
-    ```
-
-2. Gerekli Python kütüphanelerini yükleyin:
-
-    ```bash
-    pip install pyTelegramBotAPI
-    ```
-
-3. `TOKEN` değişkenini, [Telegram BotFather](https://core.telegram.org/bots#botfather) üzerinden aldığınız token ile güncelleyin.
-
-4. Botu çalıştırın:
-
-    ```bash
-    python mixbot.py
-    ```
-
-##  Katkı
-Müzik öneri algoritmalarını geliştirebilir veya yeni müzik türleri ekleyebilirsiniz.
-
+```bash
+git clone https://github.com/havvakrbck1/word-mix-bot.git
+cd word-mix-bot
+pip install -r requirements.txt
+python bot.py
